@@ -7,5 +7,14 @@ PyTorch implementation of "Histo-DenseViT: Combining Multi-scale Features in Hyb
 The model configuration used in the paper is as following:
 
 ```
-aaa
+from histo_densevit import histo_densevit
+
+model_chosen = histo_densevit \
+                (image_size = (224,224), num_classes = 2,
+                contextual_rpe = True,      # If True, use relative RPE, else use bias RPE
+                contextual_input = 'q,k',   # Mode of relative RPE, 'q,k' indicates the relative RPE will be encoded
+                                            # into queries and keys
+                T_in_T = True,              # If True, deploys self-attention between windows
+                deep_dense = True,          # If True, deploys dense connection
+                )
 ```
