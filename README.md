@@ -2,7 +2,7 @@
 
 PyTorch implementation of "Histo-DenseViT: Combining Multi-scale Features in Hybrid Vision Transformer through Dense Connection for Histopathology Image Classification"
 
-![alt text](https://raw.githubusercontent.com/MPYong/Histo-DenseViT/refs/heads/main/image/Graphical%20abstract.jpg?token=GHSAT0AAAAAACYIGRN6EZOYZSXJNSUZVED2ZYDWSGQ)
+![alt text](https://github.com/MPYong/Histo-DenseViT/blob/main/image/Graphical%20abstract.jpg)
 
 The model configuration used in the paper is as following:
 
